@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+    "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+   <!-- <bean class="com.theone.SprngProject.DemoBean"> -->
+   <!-- <property name="name" value="yash"></property>  -->
+    <!-- <constructor-arg value="20"/> -->
+     <!-- <constructor-arg value="Yash"/>  -->
+   <!-- </bean> -->
+    
+<!--<bean  id="e1" class="com.theone.SprngProject.di.Engine"/>  -->
+<!--<bean class="com.theone.SprngProject.di.car"> -->
+  <!-- <property name="e" ref="e1"></property>  -->
+  <!-- <constructor-arg ref="e1"/> -->
+<!-- </bean> -->
+
+<!--<bean class="com.theone.SprngProject.ls.BeanLifeCycle"/> -->
+
+<!-- <bean class="com.theone.SprngProject.scope.BeanScope" scope="prototype"/> -->
+
+<!-- <bean id="d2" class="com.theone.SprngProject.autoware.Demo2"/> -->
+<!-- <bean class="com.theone.SprngProject.autoware.Demo1" autowire="byName"/> -->
+
+<!--<bean class="com.theone.SprngProject.autoware.Demo2"/> -->
+<!-- <bean class="com.theone.SprngProject.autoware.Demo1" autowire="byType"/> -->
+
+<bean class="com.theone.SprngProject.autoware.Linga"/>
+<bean class="com.theone.SprngProject.autoware.Demo1" autowire="byType"/>
+
+</beans>
